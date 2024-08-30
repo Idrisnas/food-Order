@@ -1,0 +1,38 @@
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#top, #top2, #top3, #top4{
+color: #28b487;
+font-size: 1.6rem;
+}
+.main-meal{
+    color: rgba(128, 128, 128, 0.599);
+    font-size: .7rem;
+}
+.content{
+    color: #28b487;
+}
+
+#selectedMeal{
+    color: #28b487;
+}
+input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p{
+    text-transform: uppercase;
+    color: #45a049;
+}
