@@ -12,30 +12,41 @@
 
     <div>
         <h2 id="top"></h2>
-        <h2 id="top2"></h2>
-        <h2 id="top3"></h2>
 
-        <h2 id="top4"></h2>
 
         <div>
-            
+
             <div>
                 <p id="up">Choose main meal</p>
-                <input type="text" id="question1" placeholder="Enter Meal..."></input>
+                <input type="text" id="question1" placeholder="Enter Meal..." required></input>
+                <span id="aErr" style="color: red;"></span>
                 <div>
                     <p class="main-meal">Jollof Rice</p>
                     <p class="main-meal">Fried Rice</p>
                     <p class="main-meal">Yam & Egg Sauce</p>
                     <p class="main-meal">White Rice</p>
                 </div>
-        </div>
-        <p class="up">Choose Drink</p>
-        <input type="text" id="question3" placeholder="Enter Drink...">
-        <div>
-            <p class="main-meal">Fanta</p>
-            <p class="main-meal">Coke</p>
-            <p class="main-meal">Chivita</p>
-            <p class="main-meal">Monster</p>
+            </div>
+            <div>
+                <p id="up">Choose a Protien</p>
+                <input type="text" id="question2" placeholder="Enter Protien..." required></input>
+                <span id="cErr" style="color: red;"></span>
+                <div>
+                    <p class="main-meal">Chicken</p>
+                    <p class="main-meal">kpomo</p>
+                    <p class="main-meal">snail</p>
+                    <p class="main-meal">prawns</p>
+                </div>
+            </div>
+            <p class="up">Choose Drink</p>
+            <input type="text" id="question3" placeholder="Enter Drink..." required>
+            <span id="bErr" style="color: red;"></span>
+            <div>
+                <p class="main-meal">Fanta</p>
+                <p class="main-meal">Coke</p>
+                <p class="main-meal">Chivita</p>
+                <p class="main-meal">Monster</p>
+            </div>
         </div>
     </div>
     <button type="button" id="btn"> Order completed</button>
